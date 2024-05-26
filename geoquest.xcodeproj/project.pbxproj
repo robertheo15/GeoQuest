@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0A0B032BFCE2C5000ED0D0 /* geoquestappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A0B022BFCE2C5000ED0D0 /* geoquestappApp.swift */; };
+		0E0A0B052BFCE2C5000ED0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A0B042BFCE2C5000ED0D0 /* ContentView.swift */; };
+		0E0A0B072BFCE2C6000ED0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A0B062BFCE2C6000ED0D0 /* Assets.xcassets */; };
+		0E0A0B0A2BFCE2C6000ED0D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A0B092BFCE2C6000ED0D0 /* Preview Assets.xcassets */; };
+		0E0A0B122BFCE2F2000ED0D0 /* SampleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A0B112BFCE2F2000ED0D0 /* SampleMap.swift */; };
+		0E0A0B142BFCE2FB000ED0D0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A0B132BFCE2FB000ED0D0 /* MapViewModel.swift */; };
+		0E1155692C00FCC8005E1C5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1155682C00FCC8005E1C5A /* HomeView.swift */; };
+		0E11556B2C00FD8E005E1C5A /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11556A2C00FD8E005E1C5A /* ArrowView.swift */; };
+		0E9239BE2BFFB17D00DF8C84 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9239BD2BFFB17D00DF8C84 /* QuizView.swift */; };
+		0ECB62082BFC4E7F00505523 /* geoquest Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0ECB62072BFC4E7F00505523 /* geoquest Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0ECB620D2BFC4E7F00505523 /* geoquestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB620C2BFC4E7F00505523 /* geoquestApp.swift */; };
+		0ECB620F2BFC4E7F00505523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB620E2BFC4E7F00505523 /* ContentView.swift */; };
+		0ECB62112BFC4E8000505523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB62102BFC4E8000505523 /* Assets.xcassets */; };
+		0ECB62142BFC4E8000505523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB62132BFC4E8000505523 /* Preview Assets.xcassets */; };
+		0ECF78442C038F2600C69338 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0ECF78432C038F2600C69338 /* .gitignore */; };
+		0ECF8D7F2BFDA72C00912EF5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECF8D7E2BFDA72C00912EF5 /* LocationManager.swift */; };
+		0ECF8D812BFDA98F00912EF5 /* SampleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECF8D802BFDA98F00912EF5 /* SampleMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ECB62092BFC4E7F00505523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ECB61FB2BFC4E7F00505523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECB62062BFC4E7F00505523;
+			remoteInfo = "geoquest Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0ECB621A2BFC4E8000505523 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0ECB62082BFC4E7F00505523 /* geoquest Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E0A0B002BFCE2C5000ED0D0 /* geoquestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoquestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0A0B022BFCE2C5000ED0D0 /* geoquestappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geoquestappApp.swift; sourceTree = "<group>"; };
+		0E0A0B042BFCE2C5000ED0D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E0A0B062BFCE2C6000ED0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E0A0B092BFCE2C6000ED0D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E0A0B112BFCE2F2000ED0D0 /* SampleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMap.swift; sourceTree = "<group>"; };
+		0E0A0B132BFCE2FB000ED0D0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		0E1155682C00FCC8005E1C5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0E11556A2C00FD8E005E1C5A /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		0E9239BD2BFFB17D00DF8C84 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		0ECB62012BFC4E7F00505523 /* geoquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECB62072BFC4E7F00505523 /* geoquest Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geoquest Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECB620C2BFC4E7F00505523 /* geoquestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geoquestApp.swift; sourceTree = "<group>"; };
+		0ECB620E2BFC4E7F00505523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ECB62102BFC4E8000505523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ECB62132BFC4E8000505523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ECB62292BFCB5AE00505523 /* geoquest-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "geoquest-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0ECF78432C038F2600C69338 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0ECF8D7E2BFDA72C00912EF5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0ECF8D802BFDA98F00912EF5 /* SampleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E0A0AFD2BFCE2C5000ED0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB62042BFC4E7F00505523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0A0B012BFCE2C5000ED0D0 /* geoquestapp */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A0B102BFCE2D9000ED0D0 /* viewmodel */,
+				0E0A0B0F2BFCE2D5000ED0D0 /* models */,
+				0E0A0B0E2BFCE2D0000ED0D0 /* view */,
+				0E0A0B022BFCE2C5000ED0D0 /* geoquestappApp.swift */,
+				0E0A0B042BFCE2C5000ED0D0 /* ContentView.swift */,
+				0E0A0B062BFCE2C6000ED0D0 /* Assets.xcassets */,
+				0E0A0B082BFCE2C6000ED0D0 /* Preview Content */,
+			);
+			path = geoquestapp;
+			sourceTree = "<group>";
+		};
+		0E0A0B082BFCE2C6000ED0D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A0B092BFCE2C6000ED0D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E0A0B0E2BFCE2D0000ED0D0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A0B112BFCE2F2000ED0D0 /* SampleMap.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0E0A0B0F2BFCE2D5000ED0D0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0E0A0B102BFCE2D9000ED0D0 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A0B132BFCE2FB000ED0D0 /* MapViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0ECB61FA2BFC4E7F00505523 = {
+			isa = PBXGroup;
+			children = (
+				0ECF78432C038F2600C69338 /* .gitignore */,
+				0ECB620B2BFC4E7F00505523 /* geoquest Watch App */,
+				0E0A0B012BFCE2C5000ED0D0 /* geoquestapp */,
+				0ECB62022BFC4E7F00505523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ECB62022BFC4E7F00505523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB62012BFC4E7F00505523 /* geoquest.app */,
+				0ECB62072BFC4E7F00505523 /* geoquest Watch App.app */,
+				0E0A0B002BFCE2C5000ED0D0 /* geoquestapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ECB620B2BFC4E7F00505523 /* geoquest Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB62292BFCB5AE00505523 /* geoquest-Watch-App-Info.plist */,
+				0ECB62202BFC4EC400505523 /* view */,
+				0ECB621F2BFC4EBD00505523 /* viewmodel */,
+				0ECB620C2BFC4E7F00505523 /* geoquestApp.swift */,
+				0ECB620E2BFC4E7F00505523 /* ContentView.swift */,
+				0ECB62102BFC4E8000505523 /* Assets.xcassets */,
+				0ECB62122BFC4E8000505523 /* Preview Content */,
+			);
+			path = "geoquest Watch App";
+			sourceTree = "<group>";
+		};
+		0ECB62122BFC4E8000505523 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB62132BFC4E8000505523 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ECB621F2BFC4EBD00505523 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0ECF8D7E2BFDA72C00912EF5 /* LocationManager.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0ECB62202BFC4EC400505523 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0ECF8D802BFDA98F00912EF5 /* SampleMap.swift */,
+				0E9239BD2BFFB17D00DF8C84 /* QuizView.swift */,
+				0E11556A2C00FD8E005E1C5A /* ArrowView.swift */,
+				0E1155682C00FCC8005E1C5A /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E0A0AFF2BFCE2C5000ED0D0 /* geoquestapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0A0B0B2BFCE2C6000ED0D0 /* Build configuration list for PBXNativeTarget "geoquestapp" */;
+			buildPhases = (
+				0E0A0AFC2BFCE2C5000ED0D0 /* Sources */,
+				0E0A0AFD2BFCE2C5000ED0D0 /* Frameworks */,
+				0E0A0AFE2BFCE2C5000ED0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoquestapp;
+			productName = geoquestapp;
+			productReference = 0E0A0B002BFCE2C5000ED0D0 /* geoquestapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ECB62002BFC4E7F00505523 /* geoquest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB621B2BFC4E8000505523 /* Build configuration list for PBXNativeTarget "geoquest" */;
+			buildPhases = (
+				0ECB61FF2BFC4E7F00505523 /* Resources */,
+				0ECB621A2BFC4E8000505523 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ECB620A2BFC4E7F00505523 /* PBXTargetDependency */,
+			);
+			name = geoquest;
+			productName = geoquest;
+			productReference = 0ECB62012BFC4E7F00505523 /* geoquest.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0ECB62062BFC4E7F00505523 /* geoquest Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB62172BFC4E8000505523 /* Build configuration list for PBXNativeTarget "geoquest Watch App" */;
+			buildPhases = (
+				0ECB62032BFC4E7F00505523 /* Sources */,
+				0ECB62042BFC4E7F00505523 /* Frameworks */,
+				0ECB62052BFC4E7F00505523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geoquest Watch App";
+			productName = "geoquest Watch App";
+			productReference = 0ECB62072BFC4E7F00505523 /* geoquest Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ECB61FB2BFC4E7F00505523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0E0A0AFF2BFCE2C5000ED0D0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0ECB62002BFC4E7F00505523 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0ECB62062BFC4E7F00505523 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0ECB61FE2BFC4E7F00505523 /* Build configuration list for PBXProject "geoquest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ECB61FA2BFC4E7F00505523;
+			productRefGroup = 0ECB62022BFC4E7F00505523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ECB62002BFC4E7F00505523 /* geoquest */,
+				0ECB62062BFC4E7F00505523 /* geoquest Watch App */,
+				0E0A0AFF2BFCE2C5000ED0D0 /* geoquestapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E0A0AFE2BFCE2C5000ED0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0A0B0A2BFCE2C6000ED0D0 /* Preview Assets.xcassets in Resources */,
+				0E0A0B072BFCE2C6000ED0D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB61FF2BFC4E7F00505523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECF78442C038F2600C69338 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB62052BFC4E7F00505523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB62142BFC4E8000505523 /* Preview Assets.xcassets in Resources */,
+				0ECB62112BFC4E8000505523 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0A0AFC2BFCE2C5000ED0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0A0B052BFCE2C5000ED0D0 /* ContentView.swift in Sources */,
+				0E0A0B032BFCE2C5000ED0D0 /* geoquestappApp.swift in Sources */,
+				0E0A0B122BFCE2F2000ED0D0 /* SampleMap.swift in Sources */,
+				0E0A0B142BFCE2FB000ED0D0 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB62032BFC4E7F00505523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB620F2BFC4E7F00505523 /* ContentView.swift in Sources */,
+				0ECB620D2BFC4E7F00505523 /* geoquestApp.swift in Sources */,
+				0E1155692C00FCC8005E1C5A /* HomeView.swift in Sources */,
+				0E11556B2C00FD8E005E1C5A /* ArrowView.swift in Sources */,
+				0E9239BE2BFFB17D00DF8C84 /* QuizView.swift in Sources */,
+				0ECF8D7F2BFDA72C00912EF5 /* LocationManager.swift in Sources */,
+				0ECF8D812BFDA98F00912EF5 /* SampleMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ECB620A2BFC4E7F00505523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ECB62062BFC4E7F00505523 /* geoquest Watch App */;
+			targetProxy = 0ECB62092BFC4E7F00505523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E0A0B0C2BFCE2C6000ED0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geoquestapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquestapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E0A0B0D2BFCE2C6000ED0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geoquestapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquestapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ECB62152BFC4E8000505523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ECB62162BFC4E8000505523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0ECB62182BFC4E8000505523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geoquest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geoquest-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = geoquest;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		0ECB62192BFC4E8000505523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geoquest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geoquest-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = geoquest;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		0ECB621C2BFC4E8000505523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				INFOPLIST_KEY_CFBundleDisplayName = geoquest;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0ECB621D2BFC4E8000505523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KGT723N95;
+				INFOPLIST_KEY_CFBundleDisplayName = geoquest;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robertheo.geoquest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E0A0B0B2BFCE2C6000ED0D0 /* Build configuration list for PBXNativeTarget "geoquestapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0A0B0C2BFCE2C6000ED0D0 /* Debug */,
+				0E0A0B0D2BFCE2C6000ED0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECB61FE2BFC4E7F00505523 /* Build configuration list for PBXProject "geoquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB62152BFC4E8000505523 /* Debug */,
+				0ECB62162BFC4E8000505523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECB62172BFC4E8000505523 /* Build configuration list for PBXNativeTarget "geoquest Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB62182BFC4E8000505523 /* Debug */,
+				0ECB62192BFC4E8000505523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECB621B2BFC4E8000505523 /* Build configuration list for PBXNativeTarget "geoquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB621C2BFC4E8000505523 /* Debug */,
+				0ECB621D2BFC4E8000505523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ECB61FB2BFC4E7F00505523 /* Project object */;
+}
